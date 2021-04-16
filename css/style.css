@@ -1,0 +1,206 @@
+/* navbar */
+#main-navbar
+{
+	background-color: #575757;
+	overflow: hidden;
+	width: 100%;
+}
+
+#navbar-container
+{
+	float: left;
+	width: 100%;
+	position: relative;
+}
+
+#main-navbar ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    left: 50%;
+ 	float: left;
+ 	position: relative;
+}
+
+#main-navbar ul li
+{
+    display: block;
+ 	float: left;
+ 	right: 50%;
+ 	position: relative;
+}
+
+#main-navbar ul li a
+{
+	display: block;
+	padding: 15px 25px;
+	color: #fff;
+	text-decoration: none;
+  font-size: medium;
+}
+
+
+#main-navbar ul li a:hover
+{
+	background-color: #696969;
+}
+
+#main-navbar #onpage
+{
+ 	text-decoration: underline;
+}
+
+/* About Page */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1
+{
+  font-family: 'Lobster', cursive;
+}
+
+
+div.me {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.5), 0 10px 30px 0 rgba(0, 0, 0, 0.18);
+  margin-bottom: 20px;
+}
+
+div.mecontainer {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+#mee
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+/* Resume Page */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1
+{
+  font-family: 'Lobster', cursive;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+p{
+ margin-left: 1.6em;
+
+}
+
+h3{
+  margin-left: 1.3em
+}
+
+.resume-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container 
+{
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Album Page */
+
+h2{
+  margin-left: 1em ;
+  clear: both;
+}
+
+.album-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+div.gallery {
+  margin: 20px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 300px;
+}
+
+div.gallery:hover {
+  border: 10px solid #808080;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 20px;
+  text-align: center;
+}
+
+iframe{
+  margin-left: 1.6em
+}
+
+footer{
+  text-align: center;
+  padding: 2px;
+  background-color: #add8e6;
+  color: black;
+}
+
+
+
+
+
+
+
