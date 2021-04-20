@@ -18,14 +18,14 @@
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-    left: 50%;
+  left: 50%;
  	float: left;
  	position: relative;
 }
 
 #main-navbar ul li
 {
-    display: block;
+  display: block;
  	float: left;
  	right: 50%;
  	position: relative;
@@ -93,6 +93,7 @@ div.mecontainer {
   text-align: center;
   background-color: #474e5d;
   color: white;
+  margin-bottom: 10px;
 }
 
 .container {
@@ -153,7 +154,6 @@ h3{
 }
 
 /* Album Page */
-
 h2{
   margin-left: 1em ;
   clear: both;
@@ -198,9 +198,80 @@ footer{
   color: black;
 }
 
+/* Media Queries */
+@media only screen and (min-width: 1500px) {
+#main-navbar
+{
+  background-color: #2ca898;
+  width: 95%;
+}
 
+#main-navbar ul li a:hover
+{
+  background-color: #3d3d3d;
+}
 
+#main-navbar #onpage
+{
+  text-decoration: overline;
+}
 
+h2{
+  margin-left: 1.2em ;
+}
+
+div.desc {
+  padding: 30px;
+}
+
+iframe{
+  margin-left: 1.8em
+}
+}
+
+@media only screen and (min-width: 1600px) {
+#main-navbar
+{
+  background-color: #e37f7f;
+  width: 90%;
+}
+
+#main-navbar ul li a:hover
+{
+  background-color: #2e2e2e;
+}
+
+#main-navbar #onpage
+{
+  text-decoration: underline overline;
+}
+
+h2{
+  margin-left: 1.4em ;
+}
+
+div.desc {
+  padding: 35px;
+}
+
+iframe{
+  margin-left: 2em
+}
+}
+
+/* Map Page */
+#map{
+height: 600px;
+width: 60%;
+}
+
+.map-section {
+  padding: 50px;
+  margin-bottom: 15px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
 
 
 
