@@ -3,7 +3,7 @@
   // Add a mao for Las Vegas and set options
   const lv = {lat: 36.1699, lng: -115.1398}
   const map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 10,
+      zoom: 12,
       center: lv,
     });
    
@@ -16,14 +16,20 @@
       position: {lat: 36.0955, lng: -115.1761},
       map: map,
       icon: beachflag,
+      draggable: false,
+      scrollwheel: false,
+      animation: google.maps.Animation.BOUNCE,
+      scale: 2,
     });
 
+  // Add info to the marker
   const infoWindow = new google.maps.InfoWindow({
-  content: '<h1> Luxor Resort & Casino </h1><p> Here is where I lived in my trip. </p>' 
-          });
+    content: '<h1> Luxor Resort & Casino </h1><p> Here is where I lived in my trip. </p>' 
+  });
 
-          marker.addListener('click', function(){
-            infoWindow.open(map, marker);
-          });
+  marker.addListener('click', function(){
+    infoWindow.open(map, marker);
+  });
+  
   }
 
