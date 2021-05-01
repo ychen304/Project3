@@ -1,9 +1,17 @@
-  function initMap() {
+$(function(){
+  $('.slider').bxSlider({
+    mode: 'fade',
+    captions: true,
+    slideWidth: 300
+  });
+});
+
+function initMap() {
 
   // Add a mao for Las Vegas and set options
   const lv = {lat: 36.1699, lng: -115.1398}
   const map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 10,
+      zoom: 13,
       center: lv,
     });
    

@@ -166,6 +166,10 @@ h2{
   color: white;
 }
 
+.bx-wrapper{
+  margin-left: 1.2em
+}
+
 div.gallery {
   margin: 20px;
   border: 1px solid #ccc;
@@ -273,6 +277,17 @@ margin: 30px auto;
   background-color: #474e5d;
   color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
